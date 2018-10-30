@@ -1,0 +1,28 @@
+html{
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+.container{
+
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.item{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+ background-color: #FF0000;
+ height: calc(100vh/4 - 20px);
+}
